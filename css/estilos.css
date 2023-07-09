@@ -1,0 +1,99 @@
+/*******************letra de la página*****************************************************/
+
+body {
+    font-family: 'Alkatra', cursive;
+    background-color: rgba(11, 11, 187, 0.76);
+  }
+
+/*******************Titulo y subtitulo de la página**************************************/
+h1, h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 16px;
+    color: hsl(0, 0%, 0%);
+    font-size: 20px;
+/*******************Nombres y carácteristicas de los pokemones***************************************/
+  }
+    
+h3, p {
+    text-align: center;
+    font-weight: bold;
+    margin: 18px;
+    color: #000;
+    font-size: 17px;
+  }
+
+/********************Derechos Reservados*********************/
+h6{
+    text-align: center;
+    color: #000;
+    }
+  
+
+/********************Configuración de los cards*******************************************************/  
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 25px;
+  }
+
+/*********************alineamiento de los cards****************************************/  
+  
+li {
+    border: 4px solid #000;
+    border-radius: 30px;
+    margin: 6px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+/***********************etiqueta que lleva la información de los pokemones*************************************/  
+
+a{
+    list-style: none;
+    text-decoration: none;
+  }
+  
+
+/************************Estilización de las imagenes*****************************/  
+img {
+    width: 200px;
+    cursor:grab;
+    height: 180px;
+  }
+
+/************************Clase container*************************/  
+
+.container{
+    display: flex;
+  }
+
+/************************Clase de los Cards*********************************/  
+
+.card{
+    position: relative;
+    left: 0px;
+    background:linear-gradient(rgb(114, 114, 215), rgb(182, 191, 254)); 
+    animation: infinite;
+  }
+
+/*************************margen de los cards***************/  
+.card:not(:first-child){
+    margin-left: -50px;
+  }
+
+/*************************hover de los cards, que hace el efecto de moverse*************************/  
+
+.card:hover{
+    transform: translatey(-55px);
+  }
+
+footer{
+    margin: 2px;
+    padding: 2px;
+  }
